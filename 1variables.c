@@ -11,7 +11,7 @@ int main(){
     char grade = 'A';       // char are single characters
     char name[] = "lumakk";   // array of characters (There are no strings in c!)
 
-    printf("Hello I am %s\n",name);
+    printf("Hello I am %s\n", name);
     printf("I am %i years old\n", age );
     printf("I have an average grade of %c or %f", grade, gpa);
 
