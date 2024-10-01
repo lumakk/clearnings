@@ -9,11 +9,14 @@ int main(){
     int age = 18;           // integers are whole numbers
     float gpa = 2.06;   // floating (points) are decimal numbers
     char grade = 'A';       // char are single characters
-    char name[] = "lumakk";   // array of characters (There are no strings in c!)
+    char name[] = "mac";   // array of characters (There are no strings in c!)
 
-    printf("Hello I am %s\n", name);
+    printf("Hello I am %s\n", name);  
     printf("I am %i years old\n", age );
     printf("I have an average grade of %c or %f", grade, gpa);
 
     return 0; 
 }
+
+// % are format specifiers, with the letter being the data type
+// Ex:  %d - format specifier for integers
