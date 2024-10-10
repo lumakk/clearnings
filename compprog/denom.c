@@ -3,14 +3,7 @@
 int main(){
 
     int cashonHand;
-    int onethousand;
-    int fivehundred;
-    int onehundred;
-    int fifty;
-    int twenty;
-    int ten;
-    int five;
-    int one;
+    int onethousand, fivehundred, onehundred, fifty, twenty, ten, five, one;
 
     printf("Please input your cash in hand:\n");
     scanf("%d", &cashonHand);
