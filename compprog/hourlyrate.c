@@ -21,10 +21,6 @@ int main(){
 
     printf("Hello, %s", name);
     printf("\nHourly Rate:\t\t %d \nWork Hours:\t\t %d \nGross Pay:\t\t %d \nWithholding Tax:\t %.2f \nNet Pay:\t\t %.2f", work_hours, hourly_rate, gross_pay, withhold_tax, net_pay);
-
-
-    
-
     
     return 0;
 }
