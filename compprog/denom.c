@@ -15,6 +15,8 @@ int main(){
     printf("Please input your cash in hand:\n");
     scanf("%d", &cashonHand);
 
+    printf("Cash on hand: %d", cashonHand);
+
     onethousand = cashonHand / 1000;
     cashonHand %= 1000;
 
@@ -38,7 +40,6 @@ int main(){
 
     one = cashonHand;
 
-    printf("Cash on hand: %d", cashonHand);
     printf("\n\nDenominations: \n1000 - %d \n500 - %d \n100 - %d \n50 - %d \n20 - %d \n10 - %d \n5 - %d \n1 - %d", onethousand, fivehundred, onehundred, fifty, twenty, ten, five, one);
     
 
